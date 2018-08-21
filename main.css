@@ -148,12 +148,10 @@ header {
 }
 .help__link__getHelp:hover > .circle {
     background-color: #5e8ec0;
-    transform: rotate(180deg);
     transition: 2s;
 }
 .help__link__giveHelp:hover > .circle {
     background-color: #e5a430;
-    transform: rotate(180deg);
     transition: 2s;
 }
 .help-section__text {
@@ -319,6 +317,7 @@ header {
     width: 400px;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 25px 30px 0 rgb(220 220 220);
 }
 .news-item__left {
     background: linear-gradient(to top, white 0%, white 50%, transparent calc(50% + 100px)), url(img/pict1.jpg) no-repeat top center;
@@ -346,4 +345,129 @@ header {
 a {
     text-decoration: none;
     color: #3f3e3f;
+}
+.footer__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subscribe__section {
+    display: block;
+    background-color: #f2ce57;
+    text-align: center;
+    height: 70px;
+}
+.subscribe__title {
+    display: inline-block;
+    font: bold 18px Arial;
+    letter-spacing: 1px;
+    padding: 14px;
+}
+.subscribe__btn__wrap {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+.subscribe__btn {
+    display: block;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    font: bold 18px Arial;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.subscribe__btn:hover {
+    background-color: #fef5d3;
+    transition: 0.5s;
+}
+.footer-wrap {
+    background-color: #92bae4;
+    border-bottom: 7px solid #f2ce57;
+}
+.footer-logo {
+    width: 120px;
+    font: bolder 30px Arial;
+    color: #FFFFFF;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-nav {
+    width: 850px;
+    text-align: center;
+}
+.footer-side {
+    width: 250px;
+    margin: 0 15px;
+    padding: 0;
+    text-align: right;
+}
+.footer-bottom {
+    width: 1280px;
+    font: bold 16px Arial;
+    margin-bottom: 30px;
+}
+.footer__li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer__li > a {
+    margin-bottom: 30px;
+    font: bold 18px Arial;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.footer__li > a:hover {
+    text-decoration: underline;
+}
+.footer__li > ul {
+    padding: 20px 10px;
+    text-align: left;
+    font: bold 14px Arial;
+}
+.footer__li-link {
+    display: block;
+    padding-bottom: 5px;
+}
+.footer__li-link:hover {
+    text-decoration: underline;
+}
+.footer__link {
+    display: block;
+    width: 200px;
+    margin-top: 35px;
+    margin-left: 0;
+}
+.footer-side__tel, .footer-side__email {
+    font: bold 22px Arial;
+    line-height: 30px;
+}
+.footer-side__tel-number {
+    color: #FFFFFF;
+    display: block;
+    letter-spacing: 2px;
+}
+.footer-bottom > p {
+    display: inline-block;
+}
+.social {
+    float: right;
+    display: inline-block;
+}
+.social > span {
+    width: 30px;
+    height: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.social > span:hover {
+    background-color: #FFFFFF;
+    color: #3f3e3f;
+    cursor: pointer;
 }
